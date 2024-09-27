@@ -73,5 +73,9 @@ public class Person {
         seatNumber = ((int) (Math.random() * 11 + 1));
     }
 
+    @Override
+    public String toString() {
+        return "Name: " + name + "\nNationality: " + nationality + "\nDate of Birth: " + dateOfBirth + "\nSeat Number: " + seatNumber;
+    }
  
 }
